@@ -1,0 +1,36 @@
+table {
+  width: 70%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: center;
+  background: #ccc;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+td {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.delete-btn {
+  background: coral;
+}
+
+.delete-btn:hover {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.table-container {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indeema</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="modal.css" />
+    <link rel="stylesheet" href="table.css" />
+  </head>
+
+  <body>
+    <h1>Indeema</h1>
+    <h2>Task 1</h2>
+    <form>
+      <input type="text" id="sum" placeholder="Sum" />
+      <input type="text" id="price" placeholder="Price" />
+      <button type="button" id="rest-btn">Return the rest</button>
+    </form>
+    <div id="rest-display"></div>
+
+    <h2>Task 2</h2>
+    <button id="modal-btn">Open Modal</button>
+    <div class="modal-container"></div>
+
+    <h2>Task 3</h2>
+    <form>
+      <input type="text" id="name" placeholder="Name" />
+      <input type="text" id="surname" placeholder="Surname" />
+      <input type="email" id="email" placeholder="Email" />
+      <button type="button" id="add-btn">Add user</button>
+    </form>
+
+    <div class="table-container">
+      <table class="table">
+        <caption>
+          Users
+        </caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Email</th>
+            <th>Date</th>
+            <th>Delete</th>
+            <th>Edit</th>
+          </tr>
+        </thead>
+        <tbody class="tbody"></tbody>
+      </table>
+
+      <form class="hidden" id="edit-form">
+        <input type="text" id="editName" placeholder="Name" />
+        <input type="text" id="editSurname" placeholder="Surname" />
+        <input type="email" id="editEmail" placeholder="Email" />
+        <span>click edit</span>
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
